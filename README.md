@@ -1,2 +1,2 @@
 # sezam
-repozytorium do programow uzytkowych
+repozytorium do programow uzytkowych (PU)
