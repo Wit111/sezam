@@ -1,0 +1,11 @@
+git BASH
+pwd
+ls -l
+echo cokolwiek > plik	--zapisanie (stworzenie pliku)
+echo cokolwiek >>plik	--dopisanie do pliku
+git init puste_rep
+git init --bare szef
+git clone https://github.com/Wit111/sezam klon
+git log --oneline
+git add nazwa_pliku;git commit -m"Wpisz co chcesz"
+git push
