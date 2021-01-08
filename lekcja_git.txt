@@ -1,0 +1,15 @@
+echo 1 > dane1 ; git add . ; git commit -m Komit1
+echo 2 > dane2 ; git add . ; git commit -m Komit2
+echo 3 > dane3 ; git add . ; git commit -m Komit3
+echo 4 > dane4 ; git add . ; git commit -m Komit4
+echo 5 > dane5 ; git add . ; git commit -m Komit5
+git log --oneline
+git reflog
+#
+git checkout HEAD@{2}
+
+
+git checkout  ebbf8ee
+git checkout HEAD~3 # ~ - przodek (dziadek)
+git checkout main
+git checkout ebbf8ee^2 # ~ -potomek(wnuk)
